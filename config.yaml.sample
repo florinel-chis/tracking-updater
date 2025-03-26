@@ -1,0 +1,22 @@
+magento:
+  base_url: "https://yourdomain.com/rest/V1"
+  token: "your_magento_api_token"
+  timeout: 30s
+  max_retries: 3
+  retry_backoff: 1s
+
+file_watch:
+  directory: "/path/to/watch"
+  file_pattern: "^\\d{8}_\\d{6}\\.csv$"
+  processed_dir: "/path/to/processed"
+  failed_dir: "/path/to/failed"
+  poll_interval: 5s
+  max_concurrency: 5
+  batch_size: 50
+  file_process_time: 10m
+
+log:
+  level: "info"
+  format: "json"
+  file: "/path/to/logs/tracking-updater.log"
+  enable_file: true
