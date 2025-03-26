@@ -23,7 +23,7 @@ A Go microservice that processes CSV files containing order tracking information
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/tracking-updater.git
+   git clone https://github.com/florinel-chis/tracking-updater.git
    cd tracking-updater
    ```
 
